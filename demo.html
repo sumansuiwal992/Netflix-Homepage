@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netflix Clone</title>
+
+<!-- Bootstrap 5 CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="color.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container-fluid px-4 px-md-5">
+    <a class="navbar-brand netflix-logo" href="#">NETFLIX</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">TV Shows</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">New &amp; Popular</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">My List</a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-3 nav-right">
+        <i class="fa-solid fa-magnifying-glass icon-btn"></i>
+        <span class="d-none d-md-inline">Kids</span>
+        <i class="fa-regular fa-bell icon-btn"></i>
+        <div class="profile-icon"></div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header class="hero d-flex align-items-center" id="hero">
+  <div class="hero-fade"></div>
+  <div class="container-fluid px-4 px-md-5 hero-content">
+    <h1 class="hero-title">Stranger Things</h1>
+    <p class="hero-desc">
+      When a young boy vanishes, a small town uncovers a mystery involving secret experiments,
+      terrifying supernatural forces, and one strange little girl.
+    </p>
+    <div class="hero-buttons">
+      <button class="btn btn-light btn-lg btn-play"><i class="fa-solid fa-play"></i> Play</button>
+      <button class="btn btn-secondary btn-lg btn-info-btn"><i class="fa-solid fa-circle-info"></i> More Info</button>
+    </div>
+  </div>
+</header>
+
+<!-- ROWS -->
+<main class="rows-wrapper">
+
+  <section class="row-section">
+    <h2 class="row-title">Trending Now</h2>
+    <div class="row-scroll" data-row="trending"></div>
+  </section>
+
+  <section class="row-section">
+    <h2 class="row-title">Popular on Netflix</h2>
+    <div class="row-scroll" data-row="popular"></div>
+  </section>
+
+  <section class="row-section">
+    <h2 class="row-title">Continue Watching</h2>
+    <div class="row-scroll" data-row="continue"></div>
+  </section>
+
+  <section class="row-section">
+    <h2 class="row-title">Sci-Fi &amp; Fantasy</h2>
+    <div class="row-scroll" data-row="scifi"></div>
+  </section>
+
+  <section class="row-section">
+    <h2 class="row-title">Action &amp; Adventure</h2>
+    <div class="row-scroll" data-row="action"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container-fluid px-4 px-md-5">
+    <p>This is a UI clone project built for practice. Not affiliated with Netflix.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
