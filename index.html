@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix HomePage</title>
+    <title>Netflix HomePage </title>
+<!--bootstrap-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container-fluid px-4 px-md-5">
+    <a class="navbar-brand netflix-logo" href="#">NETFLIX</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">TV Shows</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">New &amp; Popular</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">My List</a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-3 nav-right">
+        <i class="fa-solid fa-magnifying-glass icon-btn"></i>
+        <span class="d-none d-md-inline">Kids</span>
+        <i class="fa-regular fa-bell icon-btn"></i>
+        <div class="profile-icon"></div>
+      </div>
+    </div>
+  </div>
+</nav>
 </body>
 </html>
