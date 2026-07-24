@@ -36,7 +36,7 @@ function buildRows() {
   });
 }
 
-function handleNavbarScroll() {
+function handleNavbarScroll()  {
   const nav = document.getElementById("mainNav");
   if (window.scrollY > 60) {
     nav.classList.add("scrolled");
