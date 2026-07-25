@@ -36,7 +36,7 @@ netflix-clone/ ├── index.html ├── style.css ├── script.js └�
 🚀 Run Locally
 
 1. Clone the repository
-   git clone https://github.com/sumansuiwal992/netflix-clone.git
+   git clone https://github.com/sumansuiwal992/Netflix-Homepage.git
 2. Open index.html in your browser (or use VS Code's Live Server extension)
 
 📬 Contact
